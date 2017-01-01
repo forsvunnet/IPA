@@ -5,8 +5,9 @@ namespace App\IPA;
 use Illuminate\Database\Eloquent\Model;
 
 class Rule extends Model {
-  public $fillable = [
+  protected $fillable = [
     'regex',
+    'name',
     'last_rule',
     'language',
   ];
