@@ -1,0 +1,52 @@
+Laravel development server started on http://localhost:8000/
+[Tue Dec 27 04:10:37 2016] ::1:51028 [200]: /favicon.ico
+[Tue Dec 27 04:10:44 2016] ::1:51030 [200]: /favicon.ico
+[Tue Dec 27 04:10:56 2016] ::1:51040 Invalid request (Unexpected EOF)
+[Tue Dec 27 04:10:56 2016] ::1:51041 Invalid request (Unexpected EOF)
+[Tue Dec 27 04:39:30 2016] ::1:51271 [200]: /favicon.ico
+[Tue Dec 27 04:40:27 2016] ::1:51272 Invalid request (Unexpected EOF)
+[Wed Dec 28 12:39:52 2016] ::1:54887 [200]: /favicon.ico
+[Wed Dec 28 12:39:53 2016] ::1:54889 [200]: /favicon.ico
+[Wed Dec 28 12:42:31 2016] ::1:54914 [200]: /favicon.ico
+[Wed Dec 28 12:42:55 2016] ::1:54915 Invalid request (Unexpected EOF)
+[Wed Dec 28 12:42:56 2016] ::1:54920 [200]: /favicon.ico
+[Wed Dec 28 12:43:05 2016] ::1:54921 Invalid request (Unexpected EOF)
+[Wed Dec 28 12:43:05 2016] ::1:54924 [200]: /favicon.ico
+[Wed Dec 28 12:43:15 2016] ::1:54928 [200]: /favicon.ico
+[Wed Dec 28 12:43:53 2016] ::1:54929 Invalid request (Unexpected EOF)
+[Wed Dec 28 12:43:53 2016] ::1:54936 [200]: /favicon.ico
+[Wed Dec 28 12:44:05 2016] ::1:54937 Invalid request (Unexpected EOF)
+[Wed Dec 28 12:44:05 2016] ::1:54941 [200]: /favicon.ico
+[Wed Dec 28 12:44:09 2016] ::1:54944 [200]: /favicon.ico
+[Wed Dec 28 12:44:14 2016] ::1:54946 [200]: /favicon.ico
+[Wed Dec 28 12:46:23 2016] ::1:54947 Invalid request (Unexpected EOF)
+[Wed Dec 28 12:46:24 2016] ::1:54967 [200]: /favicon.ico
+[Wed Dec 28 12:46:28 2016] ::1:54969 [200]: /favicon.ico
+[Wed Dec 28 12:46:32 2016] ::1:54971 [200]: /favicon.ico
+[Wed Dec 28 12:46:56 2016] ::1:54972 Invalid request (Unexpected EOF)
+[Wed Dec 28 12:58:44 2016] ::1:55073 [200]: /favicon.ico
+[Wed Dec 28 12:58:52 2016] ::1:55076 [200]: /favicon.ico
+[Wed Dec 28 12:59:22 2016] ::1:55077 Invalid request (Unexpected EOF)
+[Wed Dec 28 12:59:22 2016] ::1:55084 [200]: /favicon.ico
+[Wed Dec 28 12:59:38 2016] ::1:55085 Invalid request (Unexpected EOF)
+[Wed Dec 28 12:59:38 2016] ::1:55089 [200]: /favicon.ico
+[Wed Dec 28 13:01:57 2016] ::1:55090 Invalid request (Unexpected EOF)
+[Sun Jan  1 07:59:08 2017] ::1:62600 [200]: /favicon.ico
+[Sun Jan  1 08:00:10 2017] ::1:62601 Invalid request (Unexpected EOF)
+[Sun Jan  1 08:00:26 2017] ::1:62615 [200]: /favicon.ico
+[Sun Jan  1 08:00:58 2017] ::1:62616 Invalid request (Unexpected EOF)
+[Sun Jan  1 08:00:59 2017] ::1:62622 [200]: /favicon.ico
+[Sun Jan  1 08:01:34 2017] ::1:62623 Invalid request (Unexpected EOF)
+[Sun Jan  1 08:01:34 2017] ::1:62631 [200]: /favicon.ico
+[Sun Jan  1 08:01:56 2017] ::1:62632 Invalid request (Unexpected EOF)
+[Sun Jan  1 08:01:58 2017] ::1:62637 [200]: /favicon.ico
+[Sun Jan  1 08:02:29 2017] ::1:62638 Invalid request (Unexpected EOF)
+[Sun Jan  1 08:02:41 2017] ::1:62645 [200]: /favicon.ico
+[Sun Jan  1 08:03:03 2017] ::1:62646 Invalid request (Unexpected EOF)
+[Sun Jan  1 08:03:04 2017] ::1:62651 [200]: /favicon.ico
+[Sun Jan  1 08:03:11 2017] ::1:62654 [200]: /favicon.ico
+[Sun Jan  1 08:06:56 2017] ::1:62655 Invalid request (Unexpected EOF)
+[Sun Jan  1 08:31:47 2017] ::1:62804 [200]: /favicon.ico
+[Sun Jan  1 08:31:56 2017] ::1:62805 Invalid request (Unexpected EOF)
+[Sun Jan  1 08:37:02 2017] ::1:62853 [200]: /favicon.ico
+[Sun Jan  1 08:40:22 2017] ::1:62854 Invalid request (Unexpected EOF)

@@ -15,6 +15,4 @@
  * Show Word Dashboard
  */
 
-Route::get('/', function () {
-    return view('words');
-});
+Route::get('/', 'Main');

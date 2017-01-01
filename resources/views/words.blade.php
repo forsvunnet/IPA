@@ -5,23 +5,34 @@
 
 <?php
 
-    $word = 'man';
-    $ipa = 'man';
+use Letters\Paragraph;
+
+    $word      = 'man';
+    $combined  = 'm[a|ɑː]n';
+    $ipa       = 'mɑːn';
 
     $word_def['spelling']      = 'har';
-    $word_def['word']          = 'h[a]r';
-    $word_def['ipa']           = 'h[ɑː]r';
+    $word_def['word']          = 'har';
+    $word_def['ipa']           = 'hɑːr';
+    $word_def['combined']      = 'h[a|ɑː]r';
     $word_def['breakdown']     = ['h'=>'h', 'ɑː'=>'a', 'r'=>'r'];
-    $palette              = ['ɑː' => 1];
-    $colors               = [1 => '#C00'];
-    $inline_html   = true;
-    $inline_styles = true;
-    $color_vowels  = true;
+    $palette                   = ['ɑː' => 1];
+    $colors                    = [1 => '#C00'];
+    $inline_html               = true;
+    $inline_styles             = true;
+    $color_vowels              = true;
 
-    $sentance = "Har du en paraply?\nH[a]r du en paraply";
-    $words = explode(' ', $sentance);
+
+
+    $chapter = new Paragraph( $sentence );
+
+    // var_dump( (string) $chapter );
+
+
+    $words = explode(' ', $sentence);
     foreach ($words as &$word) {
         $lower = strtolower($word);
+        $lower = ($word);
         if ($lower == $word_def['spelling']) {
             if ($inline_html) {
                 $letters = str_split($lower);
@@ -51,11 +62,11 @@
                 // $word = json_encode($word_def['breakdown']);
             }
         }
-        echo "$lower<br>";
+        // echo "$lower<br>";
     }
     $line = implode(' ', $words);
 
-    echo $line;
+    echo nl2br( trim( $line ) );
 
 
 ?>

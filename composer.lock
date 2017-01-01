@@ -95,6 +95,26 @@
             "time": "2014-10-24 07:27:01"
         },
         {
+            "name": "cove/letters",
+            "version": "0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cove/letters.git",
+                "reference": "265b8593498b997dc2d31e75b89f053b5cc9621a"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Letters\\": "src/Letters/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "",
+            "time": "2014-10-24 07:27:01"
+        },
+        {
             "name": "doctrine/inflector",
             "version": "v1.1.0",
             "source": {

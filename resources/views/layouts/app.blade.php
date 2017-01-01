@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="utf-8">
         <title>Laravel Quickstart - Basic</title>
         <!-- CSS And JavaScript -->
     </head>
