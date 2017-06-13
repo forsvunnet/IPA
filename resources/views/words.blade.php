@@ -26,8 +26,6 @@ use Letters\Paragraph;
 
     $chapter = new Paragraph( $sentence );
 
-    // var_dump( (string) $chapter );
-
 
     $words = explode(' ', $sentence);
     foreach ($words as &$word) {

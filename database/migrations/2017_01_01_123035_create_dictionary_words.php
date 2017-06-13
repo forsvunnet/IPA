@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class Rule extends Migration
+class CreateDictionaryWords extends Migration
 {
     /**
      * Run the migrations.
@@ -13,17 +13,14 @@ class Rule extends Migration
      */
     public function up()
     {
-
-        Schema::create('rules', function (Blueprint $table) {
+        Schema::create('dictionary_words', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('priority');
-            $table->string('name');
-            $table->string('regex');
-            $table->string('replace');
+            $table->string('text');
+            $table->string('ipa');
             $table->string('language', 5);
-            $table->boolean('last_rule');
             $table->timestamps();
-        });
+        } );
+        //
     }
 
     /**
@@ -33,6 +30,6 @@ class Rule extends Migration
      */
     public function down()
     {
-        Schema::drop('rules');
+        Schema::drop('dictionary_words');
     }
 }
